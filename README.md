@@ -2,8 +2,6 @@
 
 Disk usage as an animated progress bar in your [DankBar](https://github.com/AvengeMedia/DankMaterialShell), refreshed every 30 seconds.
 
-![Screenshot](Screenshot.png)
-
 Sibling of [RAM Monitor](https://github.com/rollecode/dms-ram-monitor), [VRAM Monitor](https://github.com/rollecode/dms-vram-monitor), [GPU Monitor](https://github.com/rollecode/dms-gpu-monitor) and [CPU Monitor](https://github.com/rollecode/dms-cpu-monitor).
 
 ## What it does
