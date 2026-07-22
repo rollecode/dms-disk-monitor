@@ -1,0 +1,13 @@
+{
+    "id": "diskMonitor",
+    "name": "Disk Monitor",
+    "description": "Disk usage as an animated progress bar in the DankBar",
+    "version": "1.0.0",
+    "author": "Rolle Laukkarinen",
+    "icon": "hard_drive",
+    "type": "widget",
+    "capabilities": ["dankbar-widget"],
+    "component": "./DiskWidget.qml",
+    "settings": "./DiskSettings.qml",
+    "permissions": ["settings_read", "settings_write"]
+}
