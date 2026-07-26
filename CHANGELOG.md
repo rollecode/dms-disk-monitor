@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.1.0: 2026-07-26
+
+* Follow the DankBar's own font scale and thickness: the icon, text and bar resize with the bar instead of staying fixed
+* Keep the percentage beside its bar: the reserved width sits on the far side now, so single and double digit values no longer float away from it
+
 ### 1.0.0: 2026-07-22
 
 * Initial release: disk usage as an animated progress bar in the DankBar, refreshed every 30 seconds
