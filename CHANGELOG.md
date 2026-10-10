@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.1.1: 2026-10-10
+
+* Use theme warning colour from review [#678](https://github.com/AvengeMedia/dms-plugin-registry/issues/678)
+
 ### 1.1.0: 2026-07-26
 
 * Follow the DankBar's own font scale and thickness: the icon, text and bar resize with the bar instead of staying fixed

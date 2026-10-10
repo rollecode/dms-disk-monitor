@@ -23,7 +23,7 @@ PluginComponent {
 
     function usageColor(percent) {
         if (percent > 90) return Theme.error
-        if (percent > 75) return "#ffa500"
+        if (percent > 75) return Theme.warning
         return Theme.primary
     }
 
