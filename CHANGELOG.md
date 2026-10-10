@@ -1,7 +1,8 @@
 # Changelog
 
-### 1.1.1: 2026-10-10
+### 1.2.0: 2026-10-10
 
+* Add warning and critical level settings
 * Use theme warning colour from review [#678](https://github.com/AvengeMedia/dms-plugin-registry/issues/678)
 
 ### 1.1.0: 2026-07-26

@@ -15,6 +15,8 @@ PluginComponent {
     property bool combineAll: pluginData.combineAll === true
     property bool includeExternal: pluginData.includeExternal === true
     property int topCount: pluginData.topCount || 30
+    property int warningLevel: pluginData.warningLevel || 75
+    property int criticalLevel: pluginData.criticalLevel || 90
     property var rows: []
 
     // Bar-aware sizing: the DankBar carries its own font scale and thickness,
@@ -22,8 +24,8 @@ PluginComponent {
     readonly property real pillFont: Theme.barTextSize(barThickness, barConfig ? barConfig.fontScale : undefined, barConfig ? barConfig.maximizeWidgetText : undefined)
 
     function usageColor(percent) {
-        if (percent > 90) return Theme.error
-        if (percent > 75) return Theme.warning
+        if (percent > root.criticalLevel) return Theme.error
+        if (percent > root.warningLevel) return Theme.warning
         return Theme.primary
     }
 

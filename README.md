@@ -9,7 +9,7 @@ Sibling of [RAM Monitor](https://github.com/rollecode/dms-ram-monitor), [VRAM Mo
 - Compact bar pill: icon, optional label, animated progress bar and percentage
 - Slow 30 second polls: disks move slowly, frequent polling is wasted work
 - Pill shows the root disk by default, or every disk combined as one percentage via a setting
-- Fill follows your theme accent, turns orange above 75% and red above 90%
+- Fill follows your theme accent, turns orange above 75% and red above 90% by default, both adjustable in settings
 - Click the pill for every real filesystem, biggest first: used space and total size with the device name dimmed, threshold-coloured bars
 - External mounts (SMB, NFS and other network filesystems) are hidden by default and shown with a toggle
 - Zero dependencies

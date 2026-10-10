@@ -60,6 +60,26 @@ PluginSettings {
     }
 
     SliderSetting {
+        settingKey: "warningLevel"
+        label: "Warning level"
+        description: "Usage above this turns the bar orange"
+        defaultValue: 75
+        minimum: 50
+        maximum: 99
+        unit: "%"
+    }
+
+    SliderSetting {
+        settingKey: "criticalLevel"
+        label: "Critical level"
+        description: "Usage above this turns the bar red"
+        defaultValue: 90
+        minimum: 50
+        maximum: 99
+        unit: "%"
+    }
+
+    SliderSetting {
         settingKey: "topCount"
         label: "Entries to show"
         description: "How many filesystems the popout lists, biggest first"
